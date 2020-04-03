@@ -1,0 +1,35 @@
+{
+    "imagesList":[
+        "images/autobots.png",
+        "images/a1.png",
+        "images/a2.png",
+        "images/a3.png",
+        "images/a4.png",
+        "images/a5.png",
+        "images/a6.png",
+        "images/a7.png",
+        "images/a8.png",
+        "images/a9.png",
+
+        "images/decepticons.png",
+        "images/d1.png",
+        "images/d2.png",
+        "images/d3.png",
+        "images/d4.png",
+        "images/d5.png",
+        "images/d6.png",
+        "images/d7.png",
+        "images/d8.png",
+        "images/d9.png",
+
+        "images/mc.json",
+
+        "images/bg.png",
+        "images/betpanel_plus.png",
+        "images/betpanel_minus.png",
+        "images/betpanel_button.png",
+        "images/betpanel_plus_active.png",
+        "images/betpanel_minus_active.png",
+        "images/logo.png"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "transformers_slot_game",
+  "version": "1.0.0",
+  "description": "transformers_slot_game",
+  "author": "AntonDavidenko",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "deploy": "webpack --config webpack.production.config.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-typescript": "^7.0.0",
+    "awesome-typescript-loader": "^4.0.1",
+    "babel-loader": "8.0.2",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "raw-loader": "^0.5.1",
+    "typescript": "^3.5.1",
+    "webpack": "3.11.0"
+  },
+  "dependencies": {
+    "@types/pixi.js": "^4.8.7",
+    "pixi.js": "^4.8.7",
+    "@types/howler": "^2.1.2",
+    "reflect-metadata": "^0.1.10",
+    "howler": "^2.1.2"
+  }
+}

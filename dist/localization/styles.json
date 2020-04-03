@@ -1,0 +1,79 @@
+{
+    "LightBetpanelText" : {
+        "fontFamily": "sf_transroboticsregular",
+        "fontSize": 40,
+        "fill": "#324d7c",
+        "wordWrap": true,
+        "wordWrapWidth": 440
+    },
+    "DarkBetpanelText" : {
+        "fontFamily": "sf_transroboticsregular",
+        "fontSize": 30,
+        "fill": "#283751",
+        "wordWrap": true,
+        "wordWrapWidth": 440,
+        "stroke": "#13182e",
+        "strokeThickness": 10
+    },
+    "PaytableText" : {
+        "leading": -10,
+        "fontFamily": "sf_transroboticsregular",
+        "fontSize": 28,
+        "fill": "#283751",
+        "wordWrap": true,
+        "wordWrapWidth": 440,
+        "stroke": "#13182e",
+        "strokeThickness": 1,
+        "align":"center"
+    },
+    "PaytableButton" : {
+        "leading": -10,
+        "fontFamily": "sf_transroboticsregular",
+        "fontSize": 28,
+        "fill": "#324d7c",
+        "wordWrap": true,
+        "wordWrapWidth": 440,
+        "stroke": "#13182e",
+        "strokeThickness": 1
+    },    
+    "WinTextStyle" : {
+        "fontFamily": "sf_transroboticsregular",
+        "fontSize": 80,
+        "fontWeight": "bold",
+        "fill": ["#ffffff", "#00ff99"],
+        "stroke": "#13182e",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 440
+    },
+    "LoseTextStyle" : {
+        "fontFamily": "sf_transroboticsregular",
+        "fontSize": 80,
+        "fontWeight": "bold",
+        "fill": ["#ffffff", "#ff0000"],
+        "stroke": "#13182e",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 440
+    },
+    "DrawTextStyle" : {
+        "fontFamily": "sf_transroboticsregular",
+        "fontSize": 80,
+        "fontWeight": "bold",
+        "fill": ["#ffffff", "#ff9900"],
+        "stroke": "#13182e",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 440
+    },
+    "PointsTextStyle" : {
+        "fontFamily": "sf_transroboticsregular",
+        "fontSize": 50,
+        "fontWeight": "bold",
+        "fill": "#ff9900",
+        "stroke": "#13182e",
+        "strokeThickness": 5,
+        "wordWrap": true,
+        "wordWrapWidth": 440
+    }
+}

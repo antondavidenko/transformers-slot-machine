@@ -1,0 +1,12 @@
+{
+    "balance": "BALANCE",
+    "bet": "BET",
+    "sound": "sound volume",
+    "paytable":"paytable",
+    "win": "WIN",
+    "lose": "LOSE",
+    "draw": "DRAW",
+    "exit":"EXIT",
+    "autobots":"Autobots",
+    "decepticons":"Decepticons"
+}

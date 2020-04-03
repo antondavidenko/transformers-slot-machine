@@ -1,0 +1,124 @@
+{
+    "curencySign" : "$",
+    "defaultBalance" : 1500,
+    "betOptions" : [1,5,10,25,50,100],
+    "defaultBetOption": 2,
+    "reelPictureSize": [3,2,2,3],
+    "stripes" : [
+        ["a5","a6","a7","a8","a9"],
+        ["a1","a2","a3","a4"],
+        ["d1","d2","d3","d4"],
+        ["d5","d6","d7","d8","d9"]
+    ],
+    "symbols": [
+        {
+            "id": "a1",
+            "description": "Optimus Prime",
+            "asset": "images/a1.png",
+            "points": 100
+        },
+        {
+            "id": "a2",
+            "description": "Ultra Magnus",
+            "asset": "images/a2.png",
+            "points": 90
+        },
+        {
+            "id": "a3",
+            "description": "Jetfire",
+            "asset": "images/a3.png",
+            "points": 80
+        },
+        {
+            "id": "a4",
+            "description": "Blaster",
+            "asset": "images/a4.png",
+            "points": 60
+        },
+        {
+            "id": "a5",
+            "description": "Jazz",
+            "asset": "images/a5.png",
+            "points": 70
+        },
+        {
+            "id": "a6",
+            "description": "Ratchet",
+            "asset": "images/a6.png",
+            "points": 60
+        },
+        {
+            "id": "a7",
+            "description": "Prowl",
+            "asset": "images/a7.png",
+            "points": 50
+        },
+        {
+            "id": "a8",
+            "description": "Bumblebee",
+            "asset": "images/a8.png",
+            "points": 30
+        },
+        {
+            "id": "a9",
+            "description": "Rewind",
+            "asset": "images/a9.png",
+            "points": 20
+        },
+
+        {
+            "id": "d1",
+            "description": "Megatron",
+            "asset": "images/d1.png",
+            "points": 100
+        },
+        {
+            "id": "d2",
+            "description": "Cyclonus",
+            "asset": "images/d2.png",
+            "points": 90
+        },
+        {
+            "id": "d3",
+            "description": "Starscream",
+            "asset": "images/d3.png",
+            "points": 80
+        },
+        {
+            "id": "d4",
+            "description": "Soundwave",
+            "asset": "images/d4.png",
+            "points": 60
+        },
+        {
+            "id": "d5",
+            "description": "Astrotrain",
+            "asset": "images/d5.png",
+            "points": 70
+        },
+        {
+            "id": "d6",
+            "description": "Blitzwing",
+            "asset": "images/d6.png",
+            "points": 60
+        },
+        {
+            "id": "d7",
+            "description": "Barricade",
+            "asset": "images/d7.png",
+            "points": 50
+        },
+        {
+            "id": "d8",
+            "description": "Blackjack",
+            "asset": "images/d8.png",
+            "points": 30
+        },
+        {
+            "id": "d9",
+            "description": "Ravage",
+            "asset": "images/d9.png",
+            "points": 20
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'sf_transroboticsregular';
+    src: url('fonts/sftransrobotics.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.game-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #13182e;
+    margin: 0px;
+    font-family: 'sf_transroboticsregular';
+}

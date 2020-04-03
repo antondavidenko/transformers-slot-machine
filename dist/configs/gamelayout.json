@@ -1,0 +1,96 @@
+{
+    "BetPanelComponent":[
+        {"id":"balance_button",     "x":778,    "y":679, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"balanceTextHeader",  "x":775,    "y":632, "type":"text", "textStyle":"DarkBetpanelText"},
+        {"id":"balanceText",        "x":775,    "y":680, "type":"text", "textStyle":"LightBetpanelText"},
+
+        {"id":"bet_button",         "x":502,    "y":679, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"bet_button_plus",    "x":588,    "y":679, "type":"sprite", "imageName":"betpanel_plus_active"},
+        {"id":"bet_button_minus",   "x":416,    "y":679, "type":"sprite", "imageName":"betpanel_minus_active"},
+        {"id":"betTextHeader",      "x":505,    "y":632, "type":"text", "textStyle":"DarkBetpanelText"},
+        {"id":"betText",            "x":505,    "y":680, "type":"text", "textStyle":"LightBetpanelText"},
+        
+        {"id":"sound_button",       "x":1052,   "y":679, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"sound_button_plus",  "x":1138,   "y":679, "type":"sprite", "imageName":"betpanel_plus_active"},
+        {"id":"sound_button_minus", "x":966,    "y":679, "type":"sprite", "imageName":"betpanel_minus_active"},
+        {"id":"soundTextHeader",    "x":1050,   "y":632, "type":"text", "textStyle":"DarkBetpanelText"},
+        {"id":"soundText",          "x":1050,   "y":680, "type":"text", "textStyle":"LightBetpanelText"},
+
+        {"id":"paytable_button",    "x":225,   "y":679, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"paytableText",       "x":225,   "y":675, "type":"text", "textStyle":"LightBetpanelText"},
+
+        {"id":"autobots_spin",      "x":320, "y":360, "type":"sprite", "imageName":"autobots"},
+        {"id":"decepticons_spin",   "x":985, "y":360, "type":"sprite", "imageName":"decepticons"}
+    ],
+    "BackgroundComponent":[
+        {"id":"bg",     "x":640, "y":360, "type":"sprite", "imageName":"bg"},
+        {"id":"logo",   "x":640, "y":360, "type":"sprite", "imageName":"logo"}
+    ],
+    "ReelsComponent":[
+        {"id":"R0S0", "x":125, "y":100, "type":"sprite", "imageName":"a1"},
+        {"id":"R0S1", "x":125, "y":300, "type":"sprite", "imageName":"a1"},
+        {"id":"R0S2", "x":125, "y":500, "type":"sprite", "imageName":"a1"},
+
+        {"id":"R1S0", "x":375, "y":200, "type":"sprite", "imageName":"a1"},
+        {"id":"R1S1", "x":375, "y":400, "type":"sprite", "imageName":"a1"},
+
+        {"id":"R2S0", "x":905, "y":200, "type":"sprite", "imageName":"a1"},
+        {"id":"R2S1", "x":905, "y":400, "type":"sprite", "imageName":"a1"},
+
+        {"id":"R3S0", "x":1155, "y":100, "type":"sprite", "imageName":"a1"},
+        {"id":"R3S1", "x":1155, "y":300, "type":"sprite", "imageName":"a1"},
+        {"id":"R3S2", "x":1155, "y":500, "type":"sprite", "imageName":"a1"}
+    ],
+    "WinMeterComponent":[
+        {"id":"loseText",           "x":640, "y":330, "type":"text", "textStyle":"LoseTextStyle"},
+        {"id":"winText",            "x":640, "y":330, "type":"text", "textStyle":"WinTextStyle"},
+        {"id":"drawText",           "x":640, "y":330, "type":"text", "textStyle":"DrawTextStyle"},
+        {"id":"autobotsPoints",     "x":520, "y":400, "type":"text", "textStyle":"PointsTextStyle"},
+        {"id":"decepticonPoints",   "x":760, "y":400, "type":"text", "textStyle":"PointsTextStyle"}
+    ],
+    "PaytableComponent": [
+        {"id":"bg",     "x":640, "y":360, "type":"sprite", "imageName":"bg"},
+        {"id":"logo",   "x":640, "y":360, "type":"sprite", "imageName":"logo"},
+
+        {"id":"symbol9", "x":125, "y":200, "type":"sprite", "imageName":"a9"},
+        {"id":"symbol8", "x":370, "y":200, "type":"sprite", "imageName":"a8"},
+        {"id":"symbol7", "x":630, "y":200, "type":"sprite", "imageName":"a7"},
+        {"id":"symbol6", "x":900, "y":200, "type":"sprite", "imageName":"a6"},
+        {"id":"symbol5", "x":1125,"y":200, "type":"sprite", "imageName":"a5"},
+
+        {"id":"symbol4", "x":200, "y":470, "type":"sprite", "imageName":"a4"},
+        {"id":"symbol3", "x":500, "y":470, "type":"sprite", "imageName":"a3"},
+        {"id":"symbol2", "x":750, "y":470, "type":"sprite", "imageName":"a2"},
+        {"id":"symbol1", "x":1075,"y":470, "type":"sprite", "imageName":"a1"},
+
+        {"id":"plate9",    "x":125,   "y":330, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"plate8",    "x":375,   "y":330, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"plate7",    "x":625,   "y":330, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"plate6",    "x":875,   "y":330, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"plate5",    "x":1125,  "y":330, "type":"sprite", "imageName":"betpanel_button"},
+
+        {"id":"plate4",     "x":175,   "y":600, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"plate3",     "x":475,   "y":600, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"plate2",     "x":775,   "y":600, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"plate1",     "x":1075,  "y":600, "type":"sprite", "imageName":"betpanel_button"},
+
+        {"id":"text9",     "x":125,   "y":329, "type":"text", "textStyle":"PaytableText"},
+        {"id":"text8",     "x":375,   "y":329, "type":"text", "textStyle":"PaytableText"},
+        {"id":"text7",     "x":625,   "y":329, "type":"text", "textStyle":"PaytableText"},
+        {"id":"text6",     "x":875,   "y":329, "type":"text", "textStyle":"PaytableText"},
+        {"id":"text5",     "x":1125,  "y":329, "type":"text", "textStyle":"PaytableText"},
+
+        {"id":"text4",     "x":175,    "y":599, "type":"text", "textStyle":"PaytableText"},
+        {"id":"text3",     "x":475,   "y":599, "type":"text", "textStyle":"PaytableText"},
+        {"id":"text2",     "x":775,   "y":599, "type":"text", "textStyle":"PaytableText"},
+        {"id":"text1",     "x":1075,  "y":599, "type":"text", "textStyle":"PaytableText"},
+
+        {"id":"exit_button",        "x":375,   "y":670, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"autobot_button",     "x":625,   "y":670, "type":"sprite", "imageName":"betpanel_button"},
+        {"id":"decepticon_button",  "x":875,   "y":670, "type":"sprite", "imageName":"betpanel_button"},
+
+        {"id":"exitText",        "x":375,   "y":668, "type":"text", "textStyle":"PaytableButton"},
+        {"id":"autobotText",     "x":625,   "y":668, "type":"text", "textStyle":"PaytableButton"},
+        {"id":"decepticonText",  "x":875,   "y":668, "type":"text", "textStyle":"PaytableButton"}
+    ]
+}
