@@ -21,7 +21,7 @@
     "browser-sync-webpack-plugin": "^1.2.0",
     "raw-loader": "^0.5.1",
     "typescript": "^3.5.1",
-    "webpack": "3.11.0"
+    "webpack": "5.75.0"
   },
   "dependencies": {
     "@types/pixi.js": "^4.8.7",
